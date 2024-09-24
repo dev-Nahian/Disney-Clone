@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/Image/disney.png";
+import logo from "../../assets/Image/logo.png";
 import Avatar from "../../assets/Image/Avatar.png"
 import { HiHome } from "react-icons/hi";
 import { FaSearch } from "react-icons/fa";
@@ -16,11 +16,11 @@ export const Navbar = () => {
         <>
             <div className="container mx-auto">
 
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center py-6">
                     <div className="flex gap-x-[60px] items-center">
                         <div>
                             <img
-                                className="h-[130px] w-[130px] object-cover cursor-pointer"
+                                className="h-[60px] w-[120px] object-cover cursor-pointer"
                                 src={logo}
                                 alt="not found"
                             />

@@ -1,5 +1,8 @@
 import { useState } from 'react'
 import { Navbar } from './component/Header/Navbar'
+import Slider from './component/Slider/Slider'
+import ProductionHouse from './component/ProductionHouse/ProductionHouse'
+import GenreMovieList from './component/GenreMovie/GenreMovieList'
 
 
 function App() {
@@ -9,6 +12,12 @@ function App() {
     <>
       <div className=''> 
           <Navbar/>
+
+          <Slider/>
+
+          <ProductionHouse/>
+
+          <GenreMovieList/>
       </div>
     </>
   )
